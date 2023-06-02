@@ -1,0 +1,213 @@
+
+.animation-container {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+}
+
+.Introducing {
+    animation-name: appleHook;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@keyframes appleHook {
+    0% {
+        transform: translateX(-1000px);
+        font-weight: normal;
+        font-size: 30px;
+    }
+
+    66% {
+            font-weight: normal;
+            font-size: 30px;
+        }
+
+    99% {
+          font-weight: normal;
+          font-size: 30px;
+        }
+
+
+    100% {
+        transform: translateY(0px);
+        font-weight:bold;
+        font-size: 70px;
+
+    }
+}
+
+ .the {
+    animation-name: theHook;
+    animation-delay: 1.4s;
+    animation-duration: 0s;
+    animation-fill-mode: both;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@keyframes theHook {
+    0%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 1;
+        font-weight:bold;
+        font-size: 200px;
+    }
+
+    100% {
+        opacity: 1;
+        font-weight:bold;
+        font-size: 70px;
+    }
+}
+
+.new-container{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.squiggle {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: relative;
+    width: 120px;
+    background-color:rgb(255, 204, 0);
+    animation-name: hightlight;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+@keyframes hightlight {
+    0%{
+        transform: translateX(-20px);
+        opacity: 0;
+        width: 0px;
+    }
+
+    100%{
+        transform: translateX(-10px);
+        opacity: 1;
+        width: 120px;
+    }
+}
+
+.new-animation {
+    z-index: 100;
+    position: absolute;
+    animation-name: newHook;
+    animation-delay: 1.8s;
+    animation-duration: 0s;
+    animation-fill-mode: both;
+    color: white;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@keyframes newHook {
+    0%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.M2ChipAnimate {
+    animation-name: M2ChipHook;
+    animation-delay: 3.4s;
+    animation-duration: 0s;
+    animation-fill-mode: both;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@keyframes M2ChipHook {
+    0%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 1;
+        font-weight:bold;
+        font-size: 200px;
+    }
+
+    100% {
+        opacity: 1;
+        font-weight:bold;
+        font-size: 70px;
+    }
+}
+
+.M2ChipImageAnimation{
+    animation-name: M2ChipImageHook;
+    animation-delay: 3.8s;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-fill-mode: both;
+    height: 200px;
+}
+
+@keyframes M2ChipImageHook {
+    0%{
+        opacity: 0;
+        transform: translateY(+200px);
+    }
+
+    66%{
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.learn-more-animation {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.learn-more-animation:hover{
+    text-decoration: underline;
+}
+
+
+
+

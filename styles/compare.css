@@ -1,0 +1,192 @@
+.compare-container {
+    display: flex;
+    height: 1400px;
+    background-color: rgb(250, 250, 250);
+    justify-content: space-around;
+
+}
+
+.question-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(250, 250, 250);
+    margin-top: 100px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.compare-laptop-container {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.laptop-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.laptop-container-14 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+.laptop-container-16 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.thirteen-inch {
+    width: 200px;
+}
+
+.M2ModelCompare {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.M2PriceCompare {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.buy-compare {
+    background-color: rgb(0, 113, 227);
+    color: white;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-style: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.buy-compare:hover {
+    opacity: 0.5;
+}
+
+.buy-compare:active {
+    opacity: 0.1;
+}
+
+.learn-more-container {
+    color: rgb(0, 102, 204);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.learn-more-container:hover{
+    text-decoration: underline;
+}
+
+.hr-container{
+}
+
+.hr {
+  width: 180px;
+  margin-left: 0;
+}
+
+.inches, .core, .storage, .pounds {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.display, .chip, .cpu, .gpu, .gigabytes, .unified-memory, storage-description, .storage-description-cont, .battery-description, .camera-description, .speaker-description, .weight, .touch-bar-description, .up-to {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.M2ChipImage, .memory-image, .touch-bar-image  {
+    height: 50px;
+}
+
+.gigabytes, .storage-description, .speaker-description, .up-to {
+    margin-bottom: 0px;
+}
+
+.unified-memory, .storage-description-cont, .speaker-description, .core {
+    margin-top: 0px;
+}
+
+.battery-image {
+    height: 30px;
+}
+.facetime-image, .speaker-image{
+    height: 40px;
+}
+
+.chip {
+    white-space: nowrap;
+}
+
+.new-compare {
+    color: rgb(191, 72, 0);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.compare-mac-models-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(250, 250, 250);
+}
+
+.compare-mac-models-specific-container {
+    display: flex;
+    height: 150px;
+    width: 420px;
+    justify-content: space-around;
+}
+
+.compare-mac-models-text {
+    color: rgb(0, 102, 204);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.compare-mac-models:hover{
+    text-decoration: underline;
+}
+
+.container-fix {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.container-fixed-2 {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.eight-core {
+    margin-top: 15px;
+}
+
+
